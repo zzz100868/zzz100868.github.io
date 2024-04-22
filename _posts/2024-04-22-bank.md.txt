@@ -1,6 +1,6 @@
 ---
-layout: solidity
-title：solidity的一个银行合约
+title: 银行合约
+tags: TeXt
 ---
 
 # 银行合约
