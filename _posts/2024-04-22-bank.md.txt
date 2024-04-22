@@ -1,0 +1,49 @@
+---
+layout: solidity
+title：solidity的一个银行合约
+---
+
+# 银行合约
+
+**solidity银行合约**
+
+```solidity
+```
+
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
+
+contract Bank {
+
+  mapping(address => uint) balanceOf;
+
+  function deposit() public payable {
+
+​    require(msg.value > 0, "Deposit amount must be greater than zero");
+
+​    balanceOf[msg.sender] += msg.value;
+
+  }
+
+  function withdraw(uint amount) public {
+
+​    require(amount > 0, "Withdraw amount must be greater than zero");
+
+​    require(balanceOf[msg.sender] >= amount, "Insufficient balance");
+
+​    balanceOf[msg.sender] -= amount;
+
+​    payable(msg.sender).transfer(amount);
+
+  }
+
+  function getBalance(address account) public view returns (uint) {
+
+​    return balanceOf[account];
+
+  }
+
+}
+
+```solidity
