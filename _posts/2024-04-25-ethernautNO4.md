@@ -1,6 +1,6 @@
 ---
-title:ethernautNO.4
-tags:TeXt
+title: ethernaut NO.4
+tags: TeXt
 ---
 
 ```solidity

@@ -1,6 +1,6 @@
 ---
 title:weeklyreport
-tags:TeXt 
+tags: TeXt
 ---
 
 * 1创建了自己的blog，地址为https://zzz100868.github.io/zzz10086.github.io/；
