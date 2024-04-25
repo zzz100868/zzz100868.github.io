@@ -1,6 +1,6 @@
 ---
 title:ethernaut NO.4
-tags:Text
+tags:TeXt
 ---
 
 ```solidity
