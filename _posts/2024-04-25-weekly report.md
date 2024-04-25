@@ -1,5 +1,5 @@
 ---
-title:“weekly report”
+title:weeklyreport
 tags:TeXt 
 ---
 

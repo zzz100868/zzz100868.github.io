@@ -1,5 +1,5 @@
 ---
-title:ethernaut NO.4
+title:ethernautNO.4
 tags:TeXt
 ---
 
