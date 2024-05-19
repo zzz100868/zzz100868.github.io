@@ -1,6 +1,6 @@
 ---
 title: ethernaut NO.5
-tags： TeXt
+tags: TeXt
 ---
 
 
