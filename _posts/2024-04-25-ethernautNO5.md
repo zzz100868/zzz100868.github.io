@@ -1,6 +1,6 @@
 ---
 title: ethernaut NO.5
-tags： Text
+tags： TeXt
 ---
 
 
@@ -55,3 +55,4 @@ contract Hcak{
 ```
 
 需要做的是将该合约部署在需要攻击的合约地址中，然后调用IToken就可以查询合约的代币数量为21；
+
