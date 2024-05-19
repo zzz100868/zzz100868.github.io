@@ -1,5 +1,5 @@
 ---
-title:ethernaut NO.6
+title: ethernaut NO.6
 tags: TeXt
 ---
 
